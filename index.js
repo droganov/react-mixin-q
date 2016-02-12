@@ -1,4 +1,4 @@
-module.exports.q = {
+module.exports = {
   componentWillMount: function() {
     var self = this;
     function Q( state ){ state && this.push.apply( this, state ); }
