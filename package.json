@@ -1,0 +1,15 @@
+{
+  "name": "react-mixin-q",
+  "version": "0.0.1",
+  "description": "Primitive queue mixin for react.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "queue",
+    "react"
+  ],
+  "author": "Serge Droganov",
+  "license": "MIT"
+}
