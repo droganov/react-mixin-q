@@ -2,7 +2,8 @@ module.exports = {
   componentWillMount: function() {
     var self = this;
     function Q( state ){ state && this.push.apply( this, state ); }
-    Q.prototype = Array.prototype;
+    Q.prototype= new Array();
+    Q.prototype.constructor= Q;
     Q.prototype.add = function( val ){
       this.push( val );
       self.forceUpdate();
